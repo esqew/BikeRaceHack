@@ -37,3 +37,12 @@
 
 %end
 
+// unlimited track vouchers
+%hook MyTracksManager
+
+- (int)getRemainingTrackVouchers {
+	return 99;
+}
+
+%end
+
