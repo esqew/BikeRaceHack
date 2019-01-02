@@ -9,7 +9,7 @@
 
 %end
 
-// unlimited pokes (a.k.a. be annoying as fuck)
+// unlimited pokes (a.k.a. be annoying)
 %hook MultiplayerGame
 
 - (_Bool)canShowPoke {
